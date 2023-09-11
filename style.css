@@ -1,0 +1,47 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffff00;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(250, 225, 0);
+}
+
+a img {
+  border-radius: 16px;
+  border: 2px solid gray;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+a img:hover {
+  transform: scale(1.009);
+}
+.yellow:hover {
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 10px rgba(251, 255, 0, 0.2);
+}
+.purple:hover {
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 10px rgba(168, 97, 235, 0.2);
+}
+.green:hover {
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 10px rgba(165, 253, 109, 0.2);
+}
+
+footer a {
+  color: #ffff00;
+}
