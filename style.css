@@ -19,7 +19,13 @@
   background: rgb(250, 225, 0);
 }
 
+article a {
+  display: flex;
+  justify-content: center;
+}
+
 a img {
+  max-width: 696px;
   border-radius: 16px;
   border: 2px solid gray;
   margin: auto;
@@ -44,4 +50,12 @@ a img:hover {
 
 footer a {
   color: #ffff00;
+}
+
+footer p {
+  font-size: 0.85rem;
+}
+
+footer .developer-link{
+  font-size: 0.7rem;
 }
